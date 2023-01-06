@@ -1,0 +1,59 @@
+type: photography
+title: 2DR2BBOS14
+description: Etincidunt voluptatem tempora adipisci quaerat. Eius eius quisquam quaerat
+  dolore. Consectetur labore quaerat consectetur dolore. Dolore dolorem modi porro.
+  Eius aliquam modi velit voluptatem.
+projectDate: 2014-10-30
+backgroundColor: '#f9f9f9'
+image:
+  name: pexels-photo-5708073.jpeg
+  fitting: cover
+  positionHorizontal: 50
+  positionVertical: 50
+  width: 60
+content:
+- tileHeight: 400
+  description: Modi neque ipsum quiquia sed tempora aliquam voluptatem.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-5708073.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Ut amet modi adipisci consectetur quiquia dolore ipsum.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-6468167.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Sed dolor numquam quisquam magnam.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-2724664.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Aliquam quaerat modi etincidunt numquam.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-2770933.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Quiquia numquam velit est.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-2792157.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60

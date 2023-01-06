@@ -1,0 +1,61 @@
+type: photography
+title: GA0LBC9J63
+description: Quiquia ut quaerat tempora est consectetur consectetur. Dolore magnam
+  sit etincidunt dolorem neque aliquam. Tempora sed porro sed amet labore. Dolor non
+  voluptatem sed ipsum modi aliquam. Sit ipsum velit sit magnam amet dolor. Ipsum
+  non non numquam quiquia quisquam dolore sed. Porro eius dolor ut. Tempora quisquam
+  magnam eius ipsum ut modi magnam. Modi dolorem adipisci est ipsum dolor est etincidunt.
+projectDate: 2015-01-04
+backgroundColor: '#f9f9f9'
+image:
+  name: pexels-photo-3225517.jpeg
+  fitting: cover
+  positionHorizontal: 50
+  positionVertical: 50
+  width: 60
+content:
+- tileHeight: 400
+  description: Modi etincidunt magnam sed sit sed.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-3225517.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Labore modi dolore aliquam consectetur.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-1761279.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Amet sit dolore sed dolorem eius dolore.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-1770809.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Dolore sed tempora quiquia quaerat non aliquam.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-5708064.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Adipisci adipisci non labore porro.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-5708072.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60

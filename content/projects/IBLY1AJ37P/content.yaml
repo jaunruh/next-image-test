@@ -1,0 +1,60 @@
+type: photography
+title: IBLY1AJ37P
+description: Quaerat adipisci quaerat quisquam dolor sed. Quaerat neque ipsum dolore
+  sed sed magnam. Magnam sit labore ipsum eius voluptatem. Velit amet sed dolor. Labore
+  consectetur magnam velit. Etincidunt dolore quiquia quaerat adipisci. Est tempora
+  magnam modi dolore quisquam etincidunt.
+projectDate: 2019-10-28
+backgroundColor: '#f9f9f9'
+image:
+  name: pexels-photo-4309369.jpeg
+  fitting: cover
+  positionHorizontal: 50
+  positionVertical: 50
+  width: 60
+content:
+- tileHeight: 400
+  description: Sed velit voluptatem amet modi aliquam quaerat tempora.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-4309369.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Magnam dolorem est aliquam neque est.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-4319752.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Quaerat numquam est sed ut est.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-4318822.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Quaerat ipsum non velit modi.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-4035587.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60
+- tileHeight: 400
+  description: Sit neque magnam tempora voluptatem quiquia aliquam.
+  backgroundColor: '#f9f9f9'
+  image:
+    name: pexels-photo-4220967.jpeg
+    fitting: cover
+    positionHorizontal: 50
+    positionVertical: 50
+    width: 60

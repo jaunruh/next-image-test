@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: theme('colors.primary');
+  --secondary: theme('colors.secondary');
+  --ternary: theme('colors.ternary');
+  --dark-blue: theme('colors.dark-blue');
+  --very-dark-grey: theme('colors.very-dark-grey');
+  --dark-grey: theme('colors.dark-grey');
+  --light-grey: theme('colors.light-grey');
+  --lighter-grey: theme('colors.lighter-grey');
+  --dark-white: theme('colors.dark-white');
+  --almost-white: theme('colors.almost-white');
+  --basically-white: theme('colors.basically-white');
+
+  --work: theme('colors.work');
+  --design: theme('colors.design');
+  --photography: theme('colors.photography');
+  --diy: theme('colors.diy');
+  --coding: theme('colors.coding');
+
+  --navbar-height: theme('height.nav');
+  --tile-height: theme('height.tile');
+  --footer-height-large: theme('height.flg');
+  --footer-height-small: theme('height.fsm');
+  --body-wrapper-min-height: calc(100vh - var(--navbar-height) - var(--footer-height-large));
+
+  --max-app-width: theme('width.maw');
+  --max-timeline-width: theme('width.mtw');
+}
+
+html {
+  line-height: unset;
+}
+
+@layer base {
+  .nav-hover {
+    color: var(--primary);
+    -webkit-text-stroke-width: .07rem;
+    -webkit-text-stroke-color: var(--primary);
+  }
+
+  .nav-active {
+    color: var(--very-dark-grey);
+    -webkit-text-stroke-width: .07rem;
+    -webkit-text-stroke-color: var(--very-dark-grey);
+  }
+}
+
+
