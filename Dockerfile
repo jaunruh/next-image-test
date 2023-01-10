@@ -1,4 +1,4 @@
-FROM node:19-buster
+FROM ubuntu:jammy
 WORKDIR /app
 COPY /app ./app
 COPY /content ./content
@@ -10,7 +10,7 @@ COPY /postcss.config.js ./postcss.config.js
 COPY /tailwind.config.js ./tailwind.config.js
 COPY /tsconfig.json ./tsconfig.json
 
-RUN apt update && apt install cpio -y
+RUN apt update && apt install -yq curl gnupg && curl -sL https://deb.nodesource.com/setup_18.x | bash - && apt install -yq gcc g++ make cpio nodejs
 
 RUN npm install
 RUN npm run build
