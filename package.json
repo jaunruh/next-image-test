@@ -10,7 +10,7 @@
     "replace:images": "rm -rf ./public/content && find ./content ! -name '*.yaml' | cpio -pdm ./public"
   },
   "dependencies": {
-    "@next/font": "13.1.1",
+    "@next/font": "13.1.4",
     "@types/d3": "^7.4.0",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
