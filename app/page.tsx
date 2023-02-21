@@ -1,17 +1,11 @@
 import Image from 'next/image'
 import { Project } from "./types";
 import Link from "next/link";
-import { readdirSync } from 'fs'
-import path from "path";
+import { readProjects, createUrlPath } from "./utils";
 
 
 export default function Home() {
-	let projects: Project[] = readdirSync(path.resolve(".", "content", "projects"), {withFileTypes: true})
-			.filter(dirent => dirent.isDirectory())
-			.map(dirent => require(`/content/projects/${dirent.name}/content.yaml`) as Project)
-			.sort((a, b) => new Date(a.projectDate) < new Date(b.projectDate) ? 1 : -1)
-
-	let createUrlPath = (val: string) => val.replaceAll(" ", "-")
+	let projects: Project[] = readProjects()
 
 	return (
 			<div className="w-[80%] my-0 mx-auto">

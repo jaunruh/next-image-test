@@ -2,6 +2,7 @@ import {Project} from "../../types";
 import Image from "next/image";
 import MarkdownIt from "markdown-it";
 import styles from "./styles.module.scss";
+import { createUrlPath, readProjects } from "../../utils";
 
 export default function Page({
                                params: {project},
@@ -74,4 +75,12 @@ export default function Page({
       )}
     </div>
   )
+}
+
+export async function generateStaticParams() {
+  const posts = readProjects()
+
+  return posts.map((post) => ({
+    project: createUrlPath(post.title),
+  }));
 }
